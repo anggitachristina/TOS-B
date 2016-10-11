@@ -1,0 +1,60 @@
+
+//no 1
+
+#!/bin/bash
+harga="$(curl -s http://www.elevenia.co.id/prd-apple-iphone-7-plus-black-128gb-garansi-6242166 | grep 15.400.100 | cut -d '>' -f2| cut -d '<' -f1)" |
+0 7-19 * * 1-5 echo $harga |
+if($harga < 15000 )
+{
+mail -s "harga akhir dibawah 15000" m26415110@john.petra.ac.id
+
+}
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+//no 2
+ 
+
+\documentclass[14.4pt]{article}
+\title{Use of IPv6 in Indonesia}
+\author{By: Anggita Christina}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+https://stats.labs.apnic.net/ipv6/ID
+\section{Table}
+
+{\LARGE $n = 10$ }
+\\Latex table
+\begin{flushleft}
+        \begin{tabular}{|c|c|c|c|c|}
+                \hline
+                        ASN & AS Name & IPv6 & Capable & IPv6 Preferred & Samples \\
+                        \hline
+                        AS0     & Reserved (ietf) & 0.00%  & 0.00%  & 177 \\
+AS10137 & PATRANET-AP Patrakom Internet Service Provider & 0.00% &  0.00% &  67 \\
+AS10208 & THENET-AS-ID-AP PT. Millenium Internetindo    &  0     &  0     &  46 \\
+AS10217 & NTT-NET-ID-AS PT. NTT Indonesia 0.09%   & 0.09% &  1,123 \\
+AS10220 & SNET-ID-AP PT. Sejahtera Globalindo     & 0.00%  & 0.00%  & 59 \\
+AS131112 &      MMTC-AS-ID Sekolah Tinggi Multi Media MMTC Yogyakarta &  0.00% &  0.00%  & 53 \\
+AS131693 &      IDNIC-KEMENAG-AS-ID Kementerian Agama (KEMENAG) & 0.00%   0.00%  & 308 \\
+AS131694 &       IDNIC-JABIKHA-AS-ID PT Jabikha Teknologi Indonesia   &   0      & 0     &  10 \\
+AS131697 &       SI-AS-ID PT Samudera Indonesia Tbk.  &  0.00%  & 0.00%  & 54 \\
+
+                \hline
+        \end{tabular}
+\end{flushleft}
+
+\end{document}
+
+--------------------------------------------------------------------------------------------------
+//no3
+//no2.latex
+
+dvips no2.dvi
+ps2pdf no2.pdf
+
+
+
+
